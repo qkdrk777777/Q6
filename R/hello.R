@@ -30,6 +30,7 @@
 #   url=paste0('https://www.police.go.kr',gsub('" class="ellips">','',gsub('<a href="','',gsub('amp;','',gsub(';jsessionid=NTOpjtuAqRx1A1Fqx63FtHtQHzL7UQ5z00SZAzVhjLErjrcb09YrQjk1yqT58E4Z.cypol-was01_servlet_engine1','',gsub('\t','',line[which(str_detect(line,"ellips"))]))))))
 #   del3=cbind(del2,url)
 #   poli=rbind(poli,del3)
+#   print(i)
 # }
 # colnames(poli)<-c('num','name','temper','day','com','veiw','url')
 # getwd()
