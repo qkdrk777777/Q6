@@ -34,7 +34,7 @@
 # }
 # colnames(poli)<-c('num','name','temper','day','com','veiw','url')
 # getwd()
-# # setwd('D:/packages/Q7')
+# # setwd('D:/packages/Q6')
 # # devtools::use_data(poli, internal = F,overwrite=T)
 # # devtools::use_data(data, internal = F,overwrite=T)
 # # devtools::use_data(data2, internal = F,overwrite=T)
